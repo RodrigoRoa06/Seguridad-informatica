@@ -1,0 +1,42 @@
+.articulos{
+    display:block;
+    border: none;
+    position: relative;
+    padding: 60px 20% 60px 20%;
+  }
+.listas{
+    z-index: 2;
+    display:contents;
+    text-align:left;
+    margin: 10px;
+}
+.listas li{
+    margin: 5px;
+    padding: 16px;
+}
+#lista_ss li{
+    background: #7c7c7c2f;
+    padding: 2px;
+    color: #8d915c;
+}
+.articulos h1{
+    color: var(--color-fuente1);
+    font-size: 30px;
+}
+.articulos h2{
+    font-size: 20px;
+    color: var(--color-fuente2);
+}
+.articulos h6{
+    font-size: 12px;
+    color: #a3a3a3;
+}
+.articulos p,ul,li{
+    color: #b0b5bd;
+    border: none;
+    font-size: 16px;
+}
+
+.articulos:nth-child(1){
+    top: 30px;
+}

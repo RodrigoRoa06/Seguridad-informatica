@@ -1,0 +1,32 @@
+.articulos{
+    display:block;
+    border: none;
+    position: relative;
+    padding: 60px 20% 60px 20%;
+  }
+.listas{
+    display: block;
+    text-align: justify;
+    margin: 8px 30px 0 0;
+}
+.listas li{
+    padding: 12px;
+    height: 30px;
+}
+
+.articulos h1{
+    color: #1953aa;
+    font-size: 30px;
+}
+.articulos h2{
+    font-size: 22px;
+    color: #bfb5bd;
+}
+.articulos p,ul,li{
+    color: #b0b5bd;
+    border: none;
+}
+
+.articulos:nth-child(1){
+    top: 30px;
+}
